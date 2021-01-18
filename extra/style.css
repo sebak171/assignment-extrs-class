@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background: rgb(12, 97, 177);
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 20px;
+   border: 1px solid white;
+   margin-left: -6px;
+   font-size: 20px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
+.menu ul li:hover{
+    background: rgb(4, 62, 116);
+    transition: .3s;
+}
+.main-div img{
+    width: auto;
+    height: 300px;
+}
+.photo{
+    width: 900px;
+    height: 50px;
+    background-image: url(./PicsArt_01-03-11.42.\ sebak.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top center ;
+    background-attachment: fixed;
+    padding: 200px;
+    color: white;
+}
